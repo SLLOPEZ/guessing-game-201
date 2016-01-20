@@ -1,14 +1,9 @@
 body {
-  background-color: black;
-  background-image: url(images/question.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-
+  background-color: lightgray;
   }
 
 h1, p {
   text-align: center;
   font-family: Courier;
-  font-style: bold;
   color: blue;
 }
