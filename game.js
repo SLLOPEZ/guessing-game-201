@@ -18,11 +18,13 @@ function game(questions, answers, index) {
   if (ques === answers || ques === parseInt(answers)) {
     console.log(ques + ' correct')
     els[index].textContent = ques + ' is correct';
+    els[index].className = 'correct';
     imgs[index].innerHTML = '<img src = "images/correct.gif" width="150" height="100">';
-    numCorrect++
+    numCorrect++;
   } else {
       console.log(ques + ' incorrect')
       els[index].textContent = ques + ' is incorrect';
+      els[index].className = 'incorrect';
       imgs[index].innerHTML = '<img src = "images/wrong.gif" width="150" height="100">';
      }
 };

@@ -7,3 +7,11 @@ h1, p {
   font-family: Courier;
   color: blue;
 }
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
